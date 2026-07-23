@@ -1,14 +1,14 @@
 # Foresight
 
-An AI narrator for the world in front of you — built first for blind and low-vision users, starting with the Nigerian street environment (okadas, potholes, gutters, POS stands, road bumps) that most vision models aren't trained to prioritize.
+An AI narrator for the world in front of you, built first for blind and low-vision users, starting with the Nigerian street environment (okadas, potholes, gutters, POS stands, road bumps) that most vision models aren't trained to prioritize.
 
-Foresight watches through a phone camera and speaks only when something matters — a hazard, a person, a meaningful change — instead of narrating everything constantly. The hard problem isn't detecting objects. It's deciding **what's worth saying, and when.**
+Foresight watches through a phone camera and speaks only when something matters, be it a hazard, a person, a meaningful change instead of narrating everything constantly. The hard problem isn't detecting objects. It's deciding **what's worth saying, and when.**
 
 ## Status: early prototype
 
 This is a day-one working prototype, not a finished product. Right now:
 
-- Runs entirely in a phone browser — no app install needed
+- Runs entirely in a phone browser, no app install needed
 - Takes a camera frame every few seconds
 - Sends it to a vision-language model with strict instructions: describe only what matters, skip everything else
 - Speaks the result out loud through the phone
@@ -21,7 +21,7 @@ What's not built yet:
 
 ## Why this exists
 
-Existing tools like Seeing AI and Be My Eyes are good but slow and verbose — they describe everything instead of prioritizing what matters in the moment, and they're built and tested mostly in Western environments. Foresight starts from the opposite direction: fewer words, better judgment about timing, and built with the Nigerian street environment as a first-class use case rather than an afterthought.
+Existing tools like Seeing AI and Be My Eyes are good but slow and verbose, they describe everything instead of prioritizing what matters in the moment, and they're built and tested mostly in Western environments. Foresight starts from the opposite direction: fewer words, better judgment about timing, and built with the Nigerian street environment as a first-class use case rather than an afterthought.
 
 ## Try it
 
