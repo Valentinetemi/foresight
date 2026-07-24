@@ -32,7 +32,7 @@ Open `index.html` in a phone browser (Chrome/Safari), grant camera access, and t
 1. Validate the vision model against real Nigerian street scenes (potholes, okadas, gutters, POS kiosks)
 2. Tune narration frequency and "what's worth saying" logic based on real testing
 3. Get feedback from actual blind/low-vision users
-4. Explore dedicated hardware (camera + bone-conduction earpiece) once the software is proven
+4. Explore dedicated hardware (camera + bone-conduction earpiece) once the software is proven.
 
 ## License
 
